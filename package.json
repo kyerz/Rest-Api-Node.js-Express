@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-node.js-express",
+  "version": "1.0.0",
+  "description": "API REST with NodeJS/Express & SQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyerz/Rest-Api-Node.js-Express.git"
+  },
+  "author": "Verdu Mikael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyerz/Rest-Api-Node.js-Express/issues"
+  },
+  "homepage": "https://github.com/kyerz/Rest-Api-Node.js-Express#readme"
+}
