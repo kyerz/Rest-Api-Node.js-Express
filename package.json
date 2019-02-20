@@ -4,7 +4,8 @@
   "description": "API REST with NodeJS/Express & SQL",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/kyerz/Rest-Api-Node.js-Express/issues"
   },
-  "homepage": "https://github.com/kyerz/Rest-Api-Node.js-Express#readme"
+  "homepage": "https://github.com/kyerz/Rest-Api-Node.js-Express#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
