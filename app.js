@@ -16,5 +16,6 @@ connection.connect(error => {
     console.log('Error connecting to the database', error)
     return process.exit()
   }
+  app.locals.connection = connection
   app.listen(settings.APIServerPort, () => console.log(`Listening on port ${settings.APIServerPort}`))
 })
