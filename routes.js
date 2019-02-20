@@ -1,1 +1,3 @@
-//routes definitions here
+const employees = require('./employeeController')
+
+module.exports = { employees }
