@@ -1,5 +1,4 @@
 //employees handlers functions here
-const data = require('./mocks/data.json')
 
 const listAllEmployees = (req, res) => {
   const connection = req.app.locals.connection
